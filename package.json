@@ -1,0 +1,28 @@
+{
+	"name": "hsbc-openbanking-integration",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node -r dotenv/config server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kalkidan12/HSBC-openBanking-integration.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kalkidan12/HSBC-openBanking-integration/issues"
+	},
+	"homepage": "https://github.com/kalkidan12/HSBC-openBanking-integration#readme",
+	"dependencies": {
+		"axios": "^1.4.0",
+		"express": "^4.18.2"
+	},
+	"devDependencies": {
+		"dotenv": "^16.0.3"
+	}
+}
