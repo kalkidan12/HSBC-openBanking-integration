@@ -1,2 +1,4 @@
 /node_modules
 .env
+/apiConfFiles
+/utils/constants/configConstants.js
