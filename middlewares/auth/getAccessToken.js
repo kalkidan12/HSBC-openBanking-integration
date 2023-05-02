@@ -31,7 +31,7 @@ const getRefreshToken = async (req, res, next) => {
 		req.refreshToken = await response.data.refreshToken;
 		next();
 	} catch (error) {
-		res.status(500).json({ message: "Internal server error!", error });
+		res.json({ message: "Internal server error!", error });
 	}
 };
 module.exports = getRefreshToken;

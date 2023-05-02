@@ -29,9 +29,10 @@ const getClientCredentialToken = async (req, res, next) => {
 		// res.status(200).json(response.data);
 		next();
 	} catch (error) {
-		return res
-			.status(500)
-			.json({ message: "server error to get access token!", error: error });
+		return res.json({
+			message: "server error to get access token!",
+			error: error,
+		});
 	}
 };
 

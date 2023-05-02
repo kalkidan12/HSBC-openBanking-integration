@@ -26,7 +26,7 @@ const createAccountAccessConsent = async (req, res, next) => {
 		req.ConsentId = response.data.Data.ConsentId;
 		next();
 	} catch (error) {
-		return res.status(500).json({ message: "Internal Server Error", error });
+		return res.json({ message: "Internal Server Error", error });
 	}
 };
 module.exports = createAccountAccessConsent;

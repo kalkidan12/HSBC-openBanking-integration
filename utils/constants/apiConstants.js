@@ -9,7 +9,8 @@ const httpsAgent = new https.Agent({
 		"C:/Users/kaly/Documents/upwork/HSBC-openBanking-integration/apiConfFiles/private.key",
 	),
 });
-
+const accountInfoEndpoint =
+	"https://secure.sandbox.hsbc.com.bh/obf/open-banking/v1.0/aisp";
 const tokenEndpoint =
 	"https://secure.sandbox.hsbc.com.bh/obf/open-banking/v1.1/oauth2/token";
 const consentUrl =
@@ -58,4 +59,5 @@ module.exports = {
 	responseType,
 	authorizUrl,
 	grantType,
+	accountInfoEndpoint,
 };

@@ -1,0 +1,22 @@
+{
+	"data": {
+		"transaction": [
+			{
+				"accountId": "string",
+				"accountNumber": "string",
+				"transactionId": "string",
+				"transactionDescription": "string",
+				"transactionDate": "2023-05-02",
+				"creditDebitIndicator": "Credit",
+				"status": "Booked",
+				"amount": "string",
+				"currency": "string"
+			}
+		]
+	},
+	"links": {
+		"self": "string",
+		"prev": "string",
+		"next": "string"
+	}
+}

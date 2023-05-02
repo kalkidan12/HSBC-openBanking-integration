@@ -1,0 +1,23 @@
+{
+	"data": {
+		"account": [
+			{
+				"accountId": "string",
+				"balance": [
+					{
+						"type": "ledgerBalance",
+						"creditDebitIndicator": "Credit",
+						"amount": "string",
+						"currency": "HKD",
+						"datetime": "2023-05-02T12:50:08.640Z"
+					}
+				]
+			}
+		]
+	},
+	"links": {
+		"self": "string",
+		"prev": "string",
+		"next": "string"
+	}
+}

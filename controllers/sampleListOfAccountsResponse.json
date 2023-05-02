@@ -1,0 +1,130 @@
+{
+	"Data": {
+		"Account": [
+			{
+				"AccountId": "123456791",
+				"Currency": "BHD",
+				"AccountType": "Personal",
+				"AccountSubType": "CurrentAccount",
+				"Description": "Current Account",
+				"Nickname": "Mr Mark",
+				"Account": [
+					{
+						"SchemeName": "BH.OBF.IBAN",
+						"Identification": "BH63BBME80200110203349"
+					}
+				],
+				"Status": "Enabled"
+			},
+			{
+				"AccountId": "123456792",
+				"Currency": "BHD",
+				"AccountType": "Personal",
+				"AccountSubType": "CurrentAccount",
+				"Description": "Current Account",
+				"Nickname": "Mr Robert",
+				"Account": [
+					{
+						"SchemeName": "BH.OBF.IBAN",
+						"Identification": "BH63BBME80200110203348"
+					}
+				],
+				"Status": "Enabled"
+			},
+			{
+				"AccountId": "123456793",
+				"Currency": "BHD",
+				"AccountType": "Personal",
+				"AccountSubType": "Savings",
+				"Description": "Statement Savings Account",
+				"Nickname": "Mr Dharani C",
+				"Account": [
+					{
+						"SchemeName": "BH.OBF.IBAN",
+						"Identification": "BH63BBME00001123181001"
+					}
+				],
+				"Status": "Enabled"
+			},
+			{
+				"AccountId": "123456794",
+				"Currency": "GBP",
+				"AccountType": "Personal",
+				"AccountSubType": "CurrentAccount",
+				"Description": "Current Account",
+				"Nickname": "Mr Ronson",
+				"Account": [
+					{
+						"SchemeName": "BH.OBF.IBAN",
+						"Identification": "BH68BBME00005006556123"
+					}
+				],
+				"Status": "Enabled"
+			},
+			{
+				"AccountId": "123456795",
+				"Currency": "USD",
+				"AccountType": "Personal",
+				"AccountSubType": "CurrentAccount",
+				"Description": "Current Account",
+				"Nickname": "Ms Vinitha F",
+				"Account": [
+					{
+						"SchemeName": "BH.OBF.IBAN",
+						"Identification": "BH10BBME00005006556100"
+					}
+				],
+				"Status": "Enabled"
+			},
+			{
+				"AccountId": "123456796",
+				"Currency": "EUR",
+				"AccountType": "Personal",
+				"AccountSubType": "Savings",
+				"Description": "Statement Savings Account",
+				"Nickname": "Ms Pavitra B",
+				"Account": [
+					{
+						"SchemeName": "BH.OBF.IBAN",
+						"Identification": "BH56BBME00001014059231"
+					}
+				],
+				"Status": "Enabled"
+			},
+			{
+				"AccountId": "123456797",
+				"Currency": "BHD",
+				"AccountType": "Personal",
+				"AccountSubType": "CreditCard",
+				"Description": "Visa Platinum Credit Card",
+				"Nickname": "Ms Bhargavi K",
+				"Account": [
+					{
+						"SchemeName": "BH.OBF.PAN",
+						"Identification": "xxxx-xxxx-xxxx-9431"
+					}
+				],
+				"Status": "Enabled"
+			},
+			{
+				"AccountId": "123456798",
+				"Currency": "BHD",
+				"AccountType": "Personal",
+				"AccountSubType": "TermDeposit",
+				"Description": "TermDeposit",
+				"Nickname": "Ms Raga Sudha",
+				"Account": [
+					{
+						"SchemeName": "BH.OBF.IBAN",
+						"Identification": "BH56BBME00001014059531"
+					}
+				],
+				"Status": "Enabled"
+			}
+		]
+	},
+	"Links": {
+		"Self": "https://secure.sandbox.hsbc.com.bh/obf/open-banking/v1.0/aisp/accounts"
+	},
+	"Meta": { "TotalPages": 1 }
+}

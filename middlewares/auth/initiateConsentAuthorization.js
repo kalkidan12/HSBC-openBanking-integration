@@ -3,7 +3,6 @@ const querystring = require("querystring");
 const { KJUR } = require("jsrsasign");
 const {
 	privateKey,
-
 	kid,
 	clientId,
 } = require("../../utils/constants/configConstants");
